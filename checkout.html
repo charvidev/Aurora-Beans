@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Review your Aurora Beans order before checkout.">
+    <title>Your Cart – Aurora Beans</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo"><a href="index5.html" style="text-decoration:none; font-family: 'Playfair Display', serif; color:inherit;">☕ Aurora Beans</a></h1>
+            <ul>
+                <li><a href="index5.html#home" id="nav-home">Home</a></li>
+                <li><a href="menu5.html" id="nav-menu">Menu</a></li>
+                <li><a href="index5.html#about" id="nav-about">About</a></li>
+                <li><a href="index5.html#contact" id="nav-contact">Contact</a></li>
+                <li><a href="checkoutcoffee.html" class="cart-btn active" id="nav-cart">🛒 Cart <span id="cart-count" class="cart-count hidden">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="checkout-section">
+        <h2 class="heading" style="text-align:center;">Your Cart</h2>
+
+        <div id="cart-list" class="cart-list"></div>
+
+        <div id="cart-summary" class="cart-summary hidden">
+            <p class="cart-subtotal-row">Subtotal: <span id="cart-subtotal">₹0</span></p>
+            <button class="btn" id="place-order-btn">Place Order</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Aurora Beans  | All Rights Reserved | Made with ❤️ &amp; ☕</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
